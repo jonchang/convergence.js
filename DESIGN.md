@@ -44,16 +44,24 @@ Inspired by <http://danshipper.com/building-a-better-train-to-brooklyn>
 * I should be able to export my data in several different formats (CSV, LaTeX, markdown, etc)
 * The app should make appropriate use of colors
 
-## Groups of needs
+## My important points
 
-### UI needs
-
-### Tree needs
-
-### Statistics needs
-
-### Visualization needs
-
-### Data export needs
+* I have no idea if my trees are converged until I build the consensus tree
+* A big blob of trees is hard to interpret
+* I don't want to have to install anything
+* TreeSetViz requires Mesquite and is slow
+* I've never been able to get TreeSetViz to work on anything other than the smallest datasets
+* AWTY wants me to uploads my huge trees to their server
+* AWTY doesn't like BEAST trees
 
 ## Features to build
+
+* Drag and drop tree files
+* Big visual of tree distances like TreeSetViz
+* Plots of comparesplits like AWTY
+* Natively support multiple runs of trees
+* "Where do my two runs differ?"
+* SVG, PNG, etc. export
+* Convergence diagnosis guide
+* Click a point and see the tree
+* Click a node and see its split in AWTY-clone
